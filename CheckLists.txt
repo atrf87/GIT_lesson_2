@@ -1,0 +1,13 @@
+smoke testing:
+1. Login form 
+2. Log out form 
+3. Property selection 
+4. Property Lists 
+5. Proceed to STAR
+6. Menu
+7. Views switching
+8. Drawer 
+9. Export 
+10. Header property selector
+11. Favorites 
+
