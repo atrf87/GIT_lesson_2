@@ -1,7 +1,7 @@
 # GIT_lesson_2 (branches)
 1. На локальном репозитории сделать ветки для:  
 - Postman - Jmeter - CheckLists - Bag Reports - SQL - Charles - Mobile testing  
-- 
+
     Git clone https://github.com/atrf87/GIT_lesson_2_branches.git
     
     Cd GIT_lesson_2_branches
@@ -49,22 +49,35 @@
     Git add .
     
     Git commit -m “bug_report”
-    
+
     Git push
     
 5. Вмержить ветку Bag Reports в Main  
+
     Git checkout main
+    
     Git merge Bug_Reports
+    
 6. Запушить main на внешний репозиторий.
+
     Git push
+    
 7. В ветке CheckLists набросать структуру чек листа.  
+
     Git checkout CheckLists
+    
     Cat > CheckLists.txt
-8. Запушить структуру на внешний репозиторий  
+    
+8. Запушить структуру на внешний репозиторий
+  
     Git add .
+    
     Git commit -m “CheckLists_new2”
+    
     Git push
+    
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
+
     Заходим в ветку Main
     
     Жмём Compare & pull request
@@ -78,5 +91,7 @@
     Жмём confirm merge
     
 10. Синхронизировать Внешнюю и Локальную ветки Main
+
     Git checkout CheckLists
+    
    	Git pull
